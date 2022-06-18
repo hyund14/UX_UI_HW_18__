@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+header {
+  padding: 15px;
+}
+header ul {
+  float: right;
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+header p {
+  display: inline-block;
+}
+.heroImg {
+  padding: 100px 15px;
+}
+.content {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+}
+button {
+  padding: 15px;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+}
+footer {
+  padding: 5px;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 100px;
+  height: 600px; /* Should be removed. Only for demonstration */
+  font-size: 25px;
+}
+.column1 {
+  float: right;
+  width: 50%;
+  padding: 100px;
+  height: 200px; /* Should be removed. Only for demonstration */
+  font-size: 25px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 10px;
+  margin: 20;
+}
+p {
+  font-size: 20px;
+}
+span {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+p1 {
+  font-size: 45px;
+  color: #f1c938;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
